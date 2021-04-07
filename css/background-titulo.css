@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Roboto:wght@100&display=swap');
+}
+
+
+.background-topo{
+    
+    display: flex;
+    background-image: url("assets/img-fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container-titulo-pousada-secreta{
+   
+  
+    width: 600px;
+    height: 250px;
+ 
+    display: flex;
+    align-items: center;  
+   
+    background-color: rgba(0, 82, 61, 0.7);
+    border: 1px solid white;
+    border-radius: 5px;
+ 
+   
+}
+.container-titulo-pousada{
+   
+  
+    width: 600px;
+    height: 170px;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+    align-items: center;
+    
+}
+.titulo-pousada{
+    
+    width: 450px;
+    font-size: 60px;
+    margin: 0px 74px;
+   
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+  
+
+}
+.paragrafo-pousada{
+    width: 550px;
+   margin:0px 25px;
+   
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+  
+ 
+
+}
